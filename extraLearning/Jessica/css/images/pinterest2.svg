@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>pinterest2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-759.000000, -863.000000)">
+            <g id="pinterest2" sketch:type="MSLayerGroup" transform="translate(759.000000, 863.000000)">
+                <rect id="Rectangle-path" sketch:type="MSShapeGroup" x="0" y="0" width="20" height="20"></rect>
+                <path d="M10.414,0.664 C5.164,0.664 0.909,4.919 0.909,10.169 C0.909,15.419 5.164,19.674 10.414,19.674 C15.664,19.674 19.919,15.419 19.919,10.169 C19.919,4.919 15.664,0.664 10.414,0.664 L10.414,0.664 Z M11.064,12.423 C10.455,12.376 10.199,12.074 9.721,11.784 C9.458,13.161 9.138,14.481 8.187,15.172 C7.894,13.09 8.618,11.526 8.954,9.866 C8.381,8.901 9.023,6.958 10.233,7.437 C11.72,8.026 8.944,11.025 10.808,11.4 C12.754,11.791 13.548,8.023 12.342,6.797 C10.598,5.027 7.266,6.757 7.675,9.29 C7.776,9.909 8.415,10.098 7.931,10.952 C6.815,10.704 6.482,9.824 6.525,8.65 C6.594,6.73 8.252,5.384 9.913,5.199 C12.015,4.964 13.988,5.97 14.26,7.947 C14.566,10.181 13.312,12.597 11.064,12.423 L11.064,12.423 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

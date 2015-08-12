@@ -1,0 +1,50 @@
+body {
+	background-color: #0C1212;
+	color: white;
+}
+p {
+	margin-top: 100px;
+}
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-transform: rotate(2deg);
+	color: yellow;
+}
+#grocery{
+	 -webkit-transform: scale(1.4) rotate(-4deg);
+}
+#order {
+width: 300px;
+height: 30px;
+background: blue;
+position: absolute;
+top:0;
+left:0;
+animation-name: animation;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animation {
+		
+		25% {
+			top: 0;
+			left:250px;
+			background:red;
+			color: white;
+		}
+
+		50% {
+			top: 0;
+			left:500px;
+			background:green;
+		}
+		75% {
+			top: 0;
+			left:960px;
+			background:blue;
+		}
+
+
+	}

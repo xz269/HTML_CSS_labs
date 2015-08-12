@@ -1,0 +1,25 @@
+.container {
+	display: -webkit-flex;
+	display: flex;
+	width: 960px;
+	height: 700px;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+.text{
+	height:600px;
+	width: 800px;
+	background-color: #C266C2;
+	border: 3px dotted #eee;
+	border-radius: 70%;
+	transition-property:background, border-radius;
+	transition-duration:3s,2s;
+	transition-timing-fuction:ease-in;
+	-webkit-transition-property:background, border-radius;
+	-webkit-transition-duration:3s,2s;
+	-webkit-transition-timing-function:ease-in;
+}
+.text:hover{
+	background-color: #B2FF99;
+	border-radius: 30%;
+}

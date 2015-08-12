@@ -1,0 +1,34 @@
+.header {color:white; background-image: url(island.jpg);}
+nav {color:white;}
+nav a:link {color:white;text-decoration:none}
+nav a:visited {color:red;text-decoration:none}
+nav a:hover {color:yellow;text-decoration:none}
+header h1 {text-align:center}
+.article1 {background-color:#FFFFCC}
+.hstyle {text-align:left;color:maroon}
+.h2style {text-align:center;color:blue}
+.text {color:red}
+.imgstyle {width:304px;height:228px;border-color:maroon;border-style:dashed}
+hr {width:1000px; height:1px}
+.bgimg2 {background-image: url(island2.jpg)}
+.text2 {color:white; font-size:15pt}
+.imgstyle2 {width:304px;height:228px;border-color:white;border-style:solid; margin:30px}
+.imgstyle3 {width:300px;height:200px;padding:10px}
+.hrstyle {width:1500px; height:3px}
+.h3style {text-align:right;color:yellow}
+.bg3 {background-color:#E0CCFF}
+.text3 {color:yellow}
+.hrstyle2 {width:1600px; height:5px}
+.islandstyle {text-align:left;color:maroon}
+.islandbg {background-image: url(islandbg.jpg)}
+dl {color:white}
+.movie {width: 300px;padding: 100px;border: 25px solid navy; margin: 100px; background-color:#FFFFFC}
+.moviestyle {text-align:center;color:green}
+.copyright {font-size:smaller}
+.footerstyle {background-color:#F0F5F5}
+
+
+li a:link {color:maroon; text-decoration:none}
+li a:visited {color:blue;text-decoration:none}
+li a:hover {color:red;text-decoration:none}
+

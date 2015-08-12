@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style14.css" media="screen">
+</head>
+<body>
+	<header>
+		<h1>Registration</h1>
+	</header>
+	<section>
+		<form action="http://voyager.deanza.edu/~hso/cgi-bin/formgeneric.cgi" method="post">
+			<fieldset class="fieldset">
+				<legend>Form</legend>
+				<label for="name">Your Name:</label>
+				<input type="text" name="myName" id="myName" size="30">
+				<br><br>
+				<label for="email">Your Email:</label>
+				<input type="email" name="email" id="myEmail" size="30">
+				<input type="hidden" name="myemail" value="xz269@scarletmail.rutgers.edu">
+				<br><br>
+				<label for="phone">Your Phone:</label>
+				<input type="tel" name="myPhone" id="myPhone" size="20">
+				<br><br>
+				<label for="website">Your Website:</label>
+				<input type="url" name="myWebsite" id="myWebsite" size="40">
+				<br><br>
+				<label for="color">Your Color:</label>
+				<input type="color" name="myColor" id="myColor">
+				<br><br>
+				<label for="datalist">Your Nationality:</label>
+				<input type="tex" name="myNationality" id="myNationality" list="Nationalities">
+					<datalist id="Nationalities">
+						<option value="China">
+						<option value="Japan">
+						<option value="Korea">
+						<option value="United Kingdoms">
+						<option value="United States">
+						<option value="Vietnam">
+					</datalist>
+				<br><br>
+				<label for="date">Chosse a Date:</label>
+				<input type="date" name="myDate" id="myDate">
+			</fieldset>
+			<br><br>
+				<input type="submit">
+				<input type="reset">
+		</form>
+	</section>
+</body>
+</html>

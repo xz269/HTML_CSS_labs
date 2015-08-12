@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+   <title>Order</title>
+   <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+   <meta name=" viewport" content=" width=device-width, initial-scale=1.0">
+</head>
+   <body>
+      <header class="link">
+            <nav>
+         <ul>
+            <li><a href="./index.html">Home</a></li>|
+            <li><a href="./about.html">About Us</a></li>|
+            <li><a href="./contact.html">Contact</a></li>|
+            <li><a href="./products.html">Products</a></li>|
+            <li><a href="./faq.html">FAQ</a></li>|
+            <li><a href="./new.html">What's New</a></li>|
+            <li><a href="./support.html">Customer Service</a></li>|
+            <li><a href="./order.html">Order</a></li>
+            <li><a href="./jobs.html">Jobs</a></li>
+            <li><a href="./multimedia.html">Multimedia</a></li>
+         </ul>
+      </nav>
+         <hr>
+      </header>
+      <section>
+        <header> 
+        <h1 align="center">Order</h1>
+        </header>
+      </section>
+      <article>
+         <form class="form1" action="http://voyager.deanza.edu/~hso/cgi-bin/formgeneric.cgi" method="post">
+            <fieldset class="fieldset">
+               <legend>Form</legend>
+               <label for="fname">First Name:</label>
+               <input type="text" name="fistName" id="firstName" size="30">
+               <br><br>
+               <label for="sname">Last Name:</label>
+               <input type="text" name="secondName" id="secondName" size="30">
+               <br><br>
+               <label for="street">Street Address:</label>
+               <input type="text" name="street" id="street" size="30">
+               <br><br>
+               <label for="city">City:</label>
+               <input type="text" name="city" id="city" size="30">
+               <br><br>
+               <label for="state">State:</label>
+               <input type="text" name="state" id="state" size="30">
+               <br><br>
+               <label for="zip">Zip:</label>
+               <input type="text" name="zip" id="zip" size="5">
+               <br><br>  
+               <label for="phone">Telephone Number:</label>
+               <input type="tel" name="myPhone" id="myPhone" size="20">
+               <br><br>
+               <label for="email">Email:</label>
+               <input type="email" name="email" id="myEmail" size="30">
+               <input type="hidden" name="myemail" value="xz269@scarletmail.rutgers.edu">
+               <br><br>
+               <label for="credit">Credit Card Number:</label>
+               <input type="text" name="credit" id="credit" size="16">
+               <br><br>
+               <label for="datalist">Credit card type</label>
+               <input type="text" name="creditcard" id="creditcard" list="creditcard">
+               <br>
+                  <datalist id="creditcard">
+                     <option value="VISA">
+                     <option value="MASTERCARD">
+                     <option value="AMERICAN EXPRESS">
+                     <option value="DISCOVER">
+                  </datalist>
+               <br>
+               <label for="month">Expiration Date</label>
+               <input type="month" name="month" id="month">
+               <br><br>
+               <lable>Comment:</lable>
+               <textarea rows="4" cols="50" name="comment" id="comment">
+               </textarea>
+            </fieldset>
+            <br><br>
+            <table class="productbook" rules="all">
+            <tr>
+               <td>Category</td>
+               <td>Description</td>
+               <td>Unit Price</td>
+               <td>Quanity</td>
+               <td>Total Price</td> 
+            </tr>
+            <tr>
+               <td rowspan="2">1</td>
+               <td>ABC</td>
+               <td>$10</td>
+               <td><input type="text" name=" quantity1" id="quantity2" size="3"></td>
+               <td><input type="text" name=" total1" id="total1" size="10"></td>
+            </tr>
+            <tr>
+               <td>DEF</td>
+               <td>$30</td>
+               <td><input type="text" name=" quantity2" id="quantity2" size="3"></td>
+               <td><input type="text" name=" total2" id="total2" size="10"></td>
+            </tr>
+            <tr>
+               <td colspan="3">Subtotal $</td>
+               <td><input type="text" name=" quantity3" id="quantity3" size="3"></td>
+               <td><input type="text" name=" total3" id="total3" size="10"></td>
+            <tr>
+               <td rowspan="2">2</td>
+               <td>XYZ</td>
+               <td>$10</td>
+               <td><input type="text" name=" quantity1" id="quantity2" size="3"></td>
+               <td><input type="text" name=" total1" id="total1" size="10"></td>
+            </tr>
+            <tr>
+               <td>RST</td>
+               <td>$20</td>
+               <td><input type="text" name=" quantity2" id="quantity2" size="3"></td>
+               <td><input type="text" name=" total2" id="total2" size="10"></td>
+            </tr>
+            <tr>
+               <td colspan="3">Subtotal $</td>
+               <td><input type="text" name=" quantity3" id="quantity3" size="3"></td>
+               <td><input type="text" name=" total3" id="total3" size="10"></td>
+            <tr>
+            </table>
+            <br><br>
+            <input type="submit">
+            <input type="reset">
+      </form>
+      </articel> 
+      
+   </body>
+</html>

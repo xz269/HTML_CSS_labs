@@ -1,0 +1,7 @@
+.tb {width:80%; border:1px;border-right-color:red; border-left-color: blue}
+.rowbg {background-color:#FFCCCC}
+tbody td {text-align: center;}
+.time {background-color:#CCCCFF}
+.cellspace {border-spacing: 5px}
+.padspace {padding:7px;}
+.cellwidth {width:400px}

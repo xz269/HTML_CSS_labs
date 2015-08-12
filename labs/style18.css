@@ -1,0 +1,7 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+    background-color: #eee;
+}
+article p {
+	page-break-after: avoid;
+}

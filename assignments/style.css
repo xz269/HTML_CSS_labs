@@ -1,0 +1,249 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 100%;
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -moz-flex;
+   display: -webkit-flex;
+   display: flex;
+   justify-content: center;
+   background-color: #FFFAFA; 
+	color:maroon; 
+	font-family:Arial, "Time New Roman"; 
+	text-align:center; 
+	font-style:oblique;
+	font-weight:15px
+}
+
+.heading{
+	display: -webkit-box;
+  	display: -moz-box;
+ 	display: -ms-flexbox;
+  	display: -moz-flex;
+ 	display: -webkit-flex;
+  	display: flex;
+ 	-moz-flex-direction: row;
+  	-webkit-flex-direction: row;
+  	list-style-type: none;
+}
+
+
+#explaination{
+	margin: 30px;
+	padding: 30px;
+}
+.link ul li{
+	margin-top: 40px;
+}
+
+#container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+#main_header {
+	width: 960px;
+	display: -webkit-box;
+  	display: -moz-box;
+ 	display: -ms-flexbox;
+  	display: -moz-flex;
+ 	display: -webkit-flex;
+  	display: flex;
+ 	-moz-flex-direction: row;
+  	-webkit-flex-direction: row;
+  	 justify-content: center;
+}
+header h1 {
+	width: 1000px;
+	background:radial-gradient(#751947,#660033);
+	background: -webkit-radial-gradient(#751947,#660033); 
+ 	background: -o-radial-gradient(#751947,#660033); 
+    background: -moz-radial-gradient(#751947,#660033);
+	font-family:Serif, Arial; 
+	font-size: 40px; 
+	font-style: normal;
+	text-shadow:1px 1px 2px #EBCCD6;
+	color: #eee;
+	display: -webkit-box;
+  	display: -moz-box;
+ 	display: -ms-flexbox;
+  	display: -moz-flex;
+ 	display: -webkit-flex;
+  	display: flex;
+ 	-moz-flex-direction: row;
+  	-webkit-flex-direction: row;
+  	justify-content: center;
+  	margin:auto;
+
+}
+.logo {
+	color:white;
+	width:60px; 
+	height:60px;
+}
+
+.pic {
+	width:800px; 
+	height:600px; 
+	border:2px;
+	border-style: dashed; 
+	border-width: 2px; 
+	border-color: #FFE0D1; 
+	padding:5px;
+	border-radius: 25px;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+ 	 display: -moz-flex;
+  	display: -webkit-flex;
+  	display: flex;
+ 	 -moz-flex-direction: row;
+  	-webkit-flex-direction: row;
+  	margin: auto;
+}
+footer {
+	color:maroon;
+	width: 960px;
+	padding: 30px;
+	list-style-type: none;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+ 	 display: -moz-flex;
+  	display: -webkit-flex;
+  	display: flex;
+ 	-moz-flex-direction: row;
+  	-webkit-flex-direction: row;
+  	vertical-align: bottom;
+} 
+
+a:link {
+	text-decoration: none;
+	background-color:#FAE6F0;
+	color:#990033;
+}
+
+a:visited{
+	color:#CC0066;
+	text-decoration:none;
+	background-color:#FAE6F0
+}
+
+a:hover{
+	color:yellow;
+	text-decoration:none;
+	background-color:#FFD6EB;
+}
+
+li{
+	list-style: none;
+}
+.box {
+	width: 500px; 
+	padding: 10px;
+	border: 5px solid maroon; 
+	margin:auto; 
+	background-color: #FFE0D1;
+}
+.faqstyle {
+	text-align: left; 
+	font-style: normal;
+}
+
+article dl dt {
+	color:#66004C;
+	font-size:larger;
+	font-family: serif; 
+	font-style: normal;
+}
+
+.productstyle {
+	text-align: left; 
+	font-style: normal;
+}
+
+.productimg {
+	width: 200px; 
+	height:150px;
+	margin-right: 100px
+}
+
+.pro_table {
+	text-align: left
+}
+
+.news{
+	font-style: normal;
+	text-align: center;
+	width: 200px;
+	height: 300px;
+	margin: auto;
+}
+
+
+.form1 {
+	text-align: left;
+	width: 600px;
+}
+
+fieldset {
+	width:200px;
+	height: 600px;
+	font-style: normal;
+	margin-left:50%;
+}
+
+.productbook{
+	background:linear-gradient(#FFF, #DCDCE0);
+	border:1;
+	border-style: solid;
+	font-style: normal;
+	margin-left:50%;
+	text-align: center;
+}
+.jobdes {
+	margin-left: 200px;
+}
+.jobdes h4:nth-of-type(1){
+	color: blue;
+}
+.jobdes h4:nth-of-type(2){
+	color: yellow;
+}
+.jobdes h4:nth-of-type(3){
+	color: green;
+}
+.jobdes h4:nth-of-type(4){
+	color: red;
+}
+#video {
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 80%;
+	}
+}
+@media only screen and (min-width: 760px) {
+  p {
+     color: blue;
+     font-size: 36pt;
+     font-weight: bold;
+    }
+  p::first-letter{
+  	font-size: 50px;
+  	color:red;
+  }
+}

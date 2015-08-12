@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Personal Webpage</title>
+		<mate charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style16.css" media="screen">
+	</header>
+	<body>
+		<header class="heading"><h1>Header</h1></header>
+		<section id="container">
+			<section id="list">
+				<ul>
+					<li>Who am I</li>
+					<li>Resume</li>
+					<li>Link</li>
+				</ul>
+			</section>
+			<section id ="middle">
+				<p>This is an new area</p>
+			</section>
+			<section id ="third">
+				<p>This is an new area</p>
+			</section>
+			<section id="aside">
+				<article>Aside
+				</article>
+				<article>article 1
+				</article>
+			</section>
+		</section>
+		<footer class="footer">Footer</footer>
+	</body>
+</html>

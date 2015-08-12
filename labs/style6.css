@@ -1,0 +1,11 @@
+.text {background-color: #FFCC66; color:#660033; font-family: Arial, Verdana; font-size: 15pt; font-style: bold}
+#fontweight {font-weight:5px}
+.desstyle {background-color: #ee00cc; color:#cccc00; font-family: 'Time New Roman','Comic San MS'; font-size: 22pt; font-style: italic;}
+#desfontweight {font-weight: 10px}
+
+
+h1 {background-color: maroon; color:white}
+a {background-color: #B2B2B2}
+a:link {color:#FFFFFF;text-decoration:none}
+a:visited {color:#9900CC;text-decoration:none}
+a:hover {color:maroon;text-decoration:none}
